@@ -41,7 +41,7 @@ function setRandomColors(isInitial) {
             return
         }
 
-        const color = isLocked
+        const color = isInitial
             ? colors[index]
                 ? colors[index]
                 : chroma.random()
